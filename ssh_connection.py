@@ -74,7 +74,7 @@ def ssh_connection(ip):
             else: 
                 print("\nDONE for device {} :)\n".format(ip))
                 
-            print(re.findall(r"[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}", str(router_output))[1])
+            # print(re.findall(r"[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}", str(router_output))[1])
             
             session.close()
             
